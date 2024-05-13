@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scratch Recipe App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h2 id="heading">Scratch Recipe</h2>
+    <div id="content">
+      <table>
+        <tr>
+          <th>Available Recipes</th>
+        </tr>
+        <tr>
+          <td onclick="showCake()">Cake</td>
+        </tr>
+        <tr>
+          <td onclick="showRice()">Rice</td>
+        </tr>
+        <tr>
+          <td onclick="showFish()">Fish</td>
+        </tr>
+        <tr>
+          <td onclick="showUgali()">Ugali</td>
+        </tr>
+        <tr>
+          <td onclick="showMeat()">Meat</td>
+        </tr>
+        <tr>
+          <td onclick="showKales()">Kales</td>
+        </tr>
+      </table>
+
+      <div id="recipe-container">
+        <div id="cake-recipe" style="display: none" class="recipes">
+          Cake Recipe
+        </div>
+        <div id="rice-recipe" style="display: none" class="recipes">
+          Rice Recipe
+        </div>
+        <div id="fish-recipe" style="display: none" class="recipes">
+          Fish Recipe
+        </div>
+        <div id="ugali-recipe" style="display: none" class="recipes">
+          Ugali Recipe
+        </div>
+        <div id="meat-recipe" style="display: none" class="recipes">
+          Meat Recipe
+        </div>
+        <div id="kales-recipe" style="display: none" class="recipes">
+          Kales Recipe
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
