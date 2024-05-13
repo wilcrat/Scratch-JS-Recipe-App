@@ -1,0 +1,61 @@
+body {
+  scroll-behavior: smooth;
+  background-color: #eeeeee;
+}
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Raleway", "Lato";
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap");
+
+#heading {
+  text-align: center;
+}
+#content {
+  display: flex;
+  width: 100vh;
+  margin: auto;
+  justify-content: center;
+}
+
+table {
+  height: 50vh;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 5px;
+}
+#recipe-container {
+  height: 50vh;
+  width: 30vw;
+  border: 1px solid black;
+  margin-left: 2px;
+  display: flex;
+}
+
+.recipes {
+  border: 1px solid black;
+  width: 95%;
+  height: 95%;
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  transition: 0.5 ease-in-out;
+}
+
+/*Styling the table data*/
+td:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+  transition: 0.5s ease-in-out;
+}
